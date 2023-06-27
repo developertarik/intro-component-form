@@ -19,7 +19,7 @@ body{
 .box2{
     margin-top: 100px;
 
-    right: 100px;
+    right: 75px;
     position: relative;
     width: 500px;
 
@@ -34,7 +34,7 @@ body{
 .btn,.btn2{
     width: 450px;
     color: white;
-    height: 50px;
+    height: 55px;
     border-radius: 10px ;
     margin-bottom: 10px;
     font-weight: 600;
@@ -54,6 +54,7 @@ body{
     background-color: aliceblue;
     padding: 25px;
     border-radius: 10px;
+    height:400px;
 }
 input{
     height: 50px;
@@ -72,8 +73,6 @@ span{
 .box2-para{
     color: hsl(246, 25%, 77%);
     font-size: small;
-    position: relative;
-    left:50px;
 }
 .footer-text{
     color:red;
