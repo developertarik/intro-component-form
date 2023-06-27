@@ -9,14 +9,51 @@ body{
 .container{
     display: flex;
     flex-direction: row;
-    gap: 50px;
 }
-.box{
-    margin-top: 250px;
+.box,.box2{
+    margin-top: 100px;
     margin-left: 150px;
     color: white;
     font-size: 1.2em;
 }
 .box-header{
     font-size: xxx-large;
+}
+.btn,.btn2{
+    width: 500px;
+    color: white;
+    height: 50px;
+    border-radius: 10px ;
+    margin-bottom: 10px;}
+.btn{
+    background-color: blue;
+
+}
+.btn2{
+    background-color: green;
+}
+    form{
+    display:flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 10px;
+}
+input{
+    height: 50px;
+}
+.box2-para{
+    color: gray;
+    font-size: small;
+    position: relative;
+    left:50px;
+}
+.footer-text{
+    color:red;
+
+}
+.box21{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
 }
