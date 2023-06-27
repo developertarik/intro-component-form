@@ -32,11 +32,13 @@ body{
     font-size: xxx-large;
 }
 .btn,.btn2{
-    width: 500px;
+    width: 450px;
     color: white;
     height: 50px;
     border-radius: 10px ;
-    margin-bottom: 10px;}
+    margin-bottom: 10px;
+    font-weight: 600;
+}
 .btn{
     background-color:blue ;
     width: -webkit-fill-available;
@@ -81,4 +83,10 @@ span{
     display:flex;
     flex-direction: column;
     gap:10px;
+}
+.box21>span{
+    display:none;
+}
+.box21>img{
+    display:none;
 }
